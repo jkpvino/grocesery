@@ -1,0 +1,91 @@
+<div id="em_minifilter_products_3998a53c5a49f46ee3b6591d8a5cd9f5" class="em-grid-list ">
+	    	<div class="widget-title em-widget-title">
+    		<h3><span>BEST SELLER</span></h3>
+    	</div>
+	    
+	    
+	    	<div class="widget em-filterproducts-list">
+    		<div class="widget-products em-widget-products">
+    			    			    			<div class="products-list ">
+    				    				<div class="item first"
+    					style="  ">
+    					    					<a href="http://127.0.0.1/grocery/index.php/fresho-orange-imported-4-pcs.html" title="Fresho Orange - Imported, 4 pcs" class="product-image loading-process">
+    						                            
+    						                            
+                            <img class="em-alt-hover img-responsive em-img-lazy" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/catalog/product/cache/1/thumbnail/50x50/9df78eab33525d08d6e5fb8d27136e95/o/r/orange-1.jpg" width="50" height="50" alt="Fresho Orange - Imported, 4 pcs" />
+    						    						<img class="img-responsive em-img-lazy em-alt-org" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/catalog/product/cache/1/small_image/50x50/9df78eab33525d08d6e5fb8d27136e95/o/r/orange-1.jpg" width="50" height="50" alt="Fresho Orange - Imported, 4 pcs" />
+    					</a>
+    					    					<div class="product-shop">
+    						<div class="f-fix">
+    							<!--product name-->
+    							    							<h3 class="product-name"><a href="http://127.0.0.1/grocery/index.php/fresho-orange-imported-4-pcs.html" title="Fresho Orange - Imported, 4 pcs">Fresho Orange - Imported, 4 pcs</a></h3>
+    							    							    							<!--product description-->
+    							    							<!--product reviews-->
+    							    							<!--product price-->
+    							    								    									
+
+                        
+    <div class="price-box" >
+                                                                <span class="regular-price" id="product-price-2-emprice-71baee6ce349332b528bb4d10cff68c9">
+                                                                        <span class="price">₹89</span>                                                            </span>
+                        
+        </div>
+
+    								    							                                
+                                    						</div>
+    					</div>
+    				</div>
+    				    			    			    			    			    				<div class="item last"
+    					style="  ">
+    					    					<a href="http://127.0.0.1/grocery/index.php/fresho-strawberry-200-gm.html" title="Fresho Strawberry, 200 gm " class="product-image loading-process">
+    						                            
+    						                            
+                            <img class="em-alt-hover img-responsive em-img-lazy" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/catalog/product/cache/1/thumbnail/50x50/9df78eab33525d08d6e5fb8d27136e95/s/t/strawberry.jpg" width="50" height="50" alt="Fresho Strawberry, 200 gm " />
+    						    						<img class="img-responsive em-img-lazy em-alt-org" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/catalog/product/cache/1/small_image/50x50/9df78eab33525d08d6e5fb8d27136e95/s/t/strawberry.jpg" width="50" height="50" alt="Fresho Strawberry, 200 gm " />
+    					</a>
+    					    					<div class="product-shop">
+    						<div class="f-fix">
+    							<!--product name-->
+    							    							<h3 class="product-name"><a href="http://127.0.0.1/grocery/index.php/fresho-strawberry-200-gm.html" title="Fresho Strawberry, 200 gm ">Fresho Strawberry, 200 gm </a></h3>
+    							    							    							<!--product description-->
+    							    							<!--product reviews-->
+    							    							<!--product price-->
+    							    								    									
+
+                        
+    <div class="price-box" >
+                                                                <span class="regular-price" id="product-price-1-emprice-dc843386a0153f104329ca435602ed71">
+                                                                        <span class="price">₹55</span>                                                            </span>
+                        
+        </div>
+
+    								    							                                
+                                    						</div>
+    					</div>
+    				</div>
+    				    			</div>
+    			    			    			    		</div>
+    	</div>
+    
+	</div>
+
+<script type="text/javascript">
+//<![CDATA[
+    (function($) {
+                
+                $_img = $('#em_minifilter_products_3998a53c5a49f46ee3b6591d8a5cd9f5').find('img.em-img-lazy');
+		$_img.one("inview", function() {
+            var $this = $(this);
+            $this.attr("src", $this.attr("data-original"));
+            // Remove it from the set of matching elements in order to avoid that the handler gets re-executed
+            $this.removeAttr("data-original");
+            if ($(this).attr("src").indexOf('loading.gif') == -1) {
+                $(this).removeClass("em-img-lazy").addClass('em-lazy-loaded');
+                if($(this).parent('.product-image').hasClass('loading-process')){
+                    $(this).parent('.product-image').removeClass('loading-process'); 
+                }
+            }
+        });
+            })(jQuery); 
+//]]>
+</script>

@@ -1,0 +1,29 @@
+a:2:{s:7:"handles";a:1:{s:23:"cms_index_index-default";i:0;}s:7:"content";a:1:{i:0;s:3476:"<reference name="em_area2"><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-area02-mainslideshow">
+                                    <action method="setId"><id>28</id></action>
+                                </block></reference><reference name="em_area_footer01"><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-mainstore-footerarea01-footerinformation">
+                                    <action method="setId"><id>12</id></action>
+                                </block></reference><reference name="em0139.top.menu.mobile"><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-mainstore-area-menu-mobile">
+                                    <action method="setId"><id>13</id></action>
+                                </block></reference><reference name="em0139.top.menu"><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-mainstore-topmenu-horizontalmenu">
+                                    <action method="setId"><id>14</id></action>
+                                </block></reference><reference name="em_popup_content"><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-mainstore-popup-advertising-block">
+                                    <action method="setId"><id>15</id></action>
+                                </block></reference><reference name="content"><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-content-home-bannerads01">
+                                    <action method="setId"><id>29</id></action>
+                                </block><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-content-homeblock01-smartphone-tablet">
+                                    <action method="setId"><id>30</id></action>
+                                </block><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-content-homeblock02-home-garden">
+                                    <action method="setId"><id>31</id></action>
+                                </block><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-content-homeblock03-food-drink">
+                                    <action method="setId"><id>32</id></action>
+                                </block><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-content-homeblock04-baby-mom">
+                                    <action method="setId"><id>33</id></action>
+                                </block></reference><reference name="right"><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-right-service">
+                                    <action method="setId"><id>34</id></action>
+                                </block><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-right-bestseller">
+                                    <action method="setId"><id>35</id></action>
+                                </block><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-right-bannerads02">
+                                    <action method="setId"><id>36</id></action>
+                                </block><block type="flexibleblock/fblock" name="fblock_layout_handle_em0139-layout07-right-newarrivals">
+                                    <action method="setId"><id>37</id></action>
+                                </block></reference>";}}

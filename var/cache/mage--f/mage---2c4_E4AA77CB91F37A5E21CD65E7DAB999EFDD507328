@@ -1,0 +1,31 @@
+<div id="em_ajax_products_3a3c434ff4d634c76d7c704cb8aea444" class="emfilter-ajaxblock-loading"></div>
+<script type="text/javascript">
+    jQuery.ajax({
+		type: "POST",
+		cache: true,
+        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/',
+        data: {data: 'eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0IiwidHlwZV9maWx0ZXIiOiIyIiwibGltaXRfY291bnQiOiI1Iiwib3JkZXJfYnkiOiJuYW1lIGFzYyIsImZyb250ZW5kX3RpdGxlIjoiQkVTVCBTRUxMRVIiLCJzaG93IjoidGh1bWIsbmFtZSxwcmljZSIsInRodW1ibmFpbF93aWR0aCI6IjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9sYXlvdXQwN19iZXN0c2VsbGVyX2VtbGlzdC5waHRtbCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsImNhY2hlX3RhZ3MiOlsiY2F0YWxvZ19wcm9kdWN0IiwiY21zX3BhZ2UiLCJtaW5pX2Z0X2Jlc3RzZWxsZXIiXSwiYWpheGJsb2NrIjp0cnVlfQ=='},
+        success: function(data){
+            var $_e = jQuery('#em_ajax_products_3a3c434ff4d634c76d7c704cb8aea444');
+            $_e.html(data);
+        },
+        complete: function(data){
+            var $_e = jQuery('#em_ajax_products_3a3c434ff4d634c76d7c704cb8aea444');
+            $_e.removeClass('emfilter-ajaxblock-loading').addClass('emfilter-ajaxblock-loaded');
+            var $_eheight = jQuery('#em_ajax_products_3a3c434ff4d634c76d7c704cb8aea444').find('.em-filterproducts-grid'); 
+            setEqualElement($_eheight, '.product-name');
+			if (EM.SETTING.DISABLE_AJAX_ADDTO != 0){
+                var sWishlist = jQuery('.add-to-links').find('a.link-wishlist');
+                if(sWishlist.length){sWishlist.emAjaxWishList();}
+    
+                var sCompare = jQuery('.add-to-links').find('a.link-compare');
+                if(sCompare.length){
+                    sCompare.emAjaxCompare({
+                        sidebarSelector : ".block-compare"
+                    });
+                }
+            }
+			jQuery(window).trigger("ajaxblock");
+        }
+    });
+</script>

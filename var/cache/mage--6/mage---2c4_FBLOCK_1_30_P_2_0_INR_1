@@ -1,0 +1,320 @@
+<div class="layout07-content-homeblock01-smartphone_tablet em-wrapper-product-08 tab-color01">
+<div class="em-tabs-widget tabs-widget ">
+<div id="emajaxtabs_1" class="em-tabs emajaxtabs">
+<div class="block-title list-item">
+<p class="h2">SMARTPHONE &amp; TABLET</p>
+</div>
+<div class="item_wrapper tabs custom-tab">
+<div class="item tab-link active"><a href="#tab_emajaxtabs_1_1" data-hover="Tab 1" data-tab="tab_emajaxtabs_1_1"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_brands1.png" /><span>iPhone</span></a></div>
+<div class="item tab-link"><a href="#tab_emajaxtabs_1_2" data-hover="Tab 2" data-tab="tab_emajaxtabs_1_2"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_brands2.png" /><span>Samsung</span></a></div>
+<div class="item tab-link"><a href="#tab_emajaxtabs_1_3" data-hover="Tab 3" data-tab="tab_emajaxtabs_1_3"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_brands3.png" /><span>HTC</span></a></div>
+<div class="item tab-link"><a href="#tab_emajaxtabs_1_4" data-hover="Tab 4" data-tab="tab_emajaxtabs_1_4"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_brands4.png" /><span>Asus</span></a></div>
+<div class="item tab-link"><a href="#tab_emajaxtabs_1_5" data-hover="Tab 5" data-tab="tab_emajaxtabs_1_5"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_brands5.png" /><span>Sony</span></a></div>
+</div>
+<div class="block-content">
+<div class="tab-content-container">
+<div id="tab_emajaxtabs_1_1" class="tab-content active">
+<div class="block-banner row  em-clear-margin hidden-xs">
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner1.jpg" /></a></div>
+<div class="col-sm-12  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner2.jpg" /></a></div>
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_b0000c76c7e6d1f06d2da65053c496a1" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_b0000c76c7e6d1f06d2da65053c496a1').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_b0000c76c7e6d1f06d2da65053c496a1').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_b0000c76c7e6d1f06d2da65053c496a1').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI2MiIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgMSIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_b0000c76c7e6d1f06d2da65053c496a1').html(data);
+					jQuery('#emajaxblock_b0000c76c7e6d1f06d2da65053c496a1').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI2MiIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgMSIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_b0000c76c7e6d1f06d2da65053c496a1').html(data);
+	                    jQuery('#emajaxblock_b0000c76c7e6d1f06d2da65053c496a1').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+<div id="tab_emajaxtabs_1_2" class="tab-content">
+<div class="block-banner row  em-clear-margin hidden-xs">
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner1.jpg" /></a></div>
+<div class="col-sm-12  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner2.jpg" /></a></div>
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_8a04355fb8e81e2307a136c1500d287f" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_8a04355fb8e81e2307a136c1500d287f').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_8a04355fb8e81e2307a136c1500d287f').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_8a04355fb8e81e2307a136c1500d287f').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI2MyIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgMiIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_8a04355fb8e81e2307a136c1500d287f').html(data);
+					jQuery('#emajaxblock_8a04355fb8e81e2307a136c1500d287f').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI2MyIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgMiIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_8a04355fb8e81e2307a136c1500d287f').html(data);
+	                    jQuery('#emajaxblock_8a04355fb8e81e2307a136c1500d287f').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+<div id="tab_emajaxtabs_1_3" class="tab-content">
+<div class="block-banner row  em-clear-margin hidden-xs">
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner1.jpg" /></a></div>
+<div class="col-sm-12  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner2.jpg" /></a></div>
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_ec61145dc492c9397d9bcf73b2f14147" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_ec61145dc492c9397d9bcf73b2f14147').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_ec61145dc492c9397d9bcf73b2f14147').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_ec61145dc492c9397d9bcf73b2f14147').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI2NCIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgMyIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_ec61145dc492c9397d9bcf73b2f14147').html(data);
+					jQuery('#emajaxblock_ec61145dc492c9397d9bcf73b2f14147').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI2NCIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgMyIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_ec61145dc492c9397d9bcf73b2f14147').html(data);
+	                    jQuery('#emajaxblock_ec61145dc492c9397d9bcf73b2f14147').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+<div id="tab_emajaxtabs_1_4" class="tab-content">
+<div class="block-banner row  em-clear-margin hidden-xs">
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner1.jpg" /></a></div>
+<div class="col-sm-12  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner2.jpg" /></a></div>
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_215a453913158e5c1d9dc430456c7d1e" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_215a453913158e5c1d9dc430456c7d1e').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_215a453913158e5c1d9dc430456c7d1e').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_215a453913158e5c1d9dc430456c7d1e').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI1OCIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgNCIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_215a453913158e5c1d9dc430456c7d1e').html(data);
+					jQuery('#emajaxblock_215a453913158e5c1d9dc430456c7d1e').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI1OCIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgNCIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_215a453913158e5c1d9dc430456c7d1e').html(data);
+	                    jQuery('#emajaxblock_215a453913158e5c1d9dc430456c7d1e').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+<div id="tab_emajaxtabs_1_5" class="tab-content">
+<div class="block-banner row  em-clear-margin hidden-xs">
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner1.jpg" /></a></div>
+<div class="col-sm-12  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner2.jpg" /></a></div>
+<div class="col-sm-6  em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block1_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_981801273968077ac70d871b2b086512" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_981801273968077ac70d871b2b086512').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_981801273968077ac70d871b2b086512').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_981801273968077ac70d871b2b086512').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI2Miw2MyIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgNSIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_981801273968077ac70d871b2b086512').html(data);
+					jQuery('#emajaxblock_981801273968077ac70d871b2b086512').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiI2Miw2MyIsInR5cGVfZmlsdGVyIjoiNSIsImxpbWl0X2NvdW50IjoiNSIsIm9yZGVyX2J5IjoibmFtZSBhc2MiLCJjdXN0b21fY2xhc3MiOiJ0YWIgNSIsInNob3ciOiJ0aHVtYixuYW1lLHJldmlldyxwcmljZSxhZGR0b2NhcnQsYWRkdG8iLCJ0aHVtYm5haWxfd2lkdGgiOiIyNTAiLCJ0aHVtYm5haWxfaGVpZ2h0IjoiMjUwIiwiY3VzdG9tX3RoZW1lIjoiZW1fbWluaWZpbHRlcnByb2R1Y3RzXC9jdXN0b21fbWFpbl9ob21lX2NvbnRlbnRfYmxvY2tfZ3JpZC5waHRtbCIsInNsaWRlcl9lbmFibGUiOiIxIiwic2xpZGVyX2l0ZW1zIjoiNCIsImltZ19sYXp5bG9hZCI6IjEiLCJhbHRfaW1nIjoidGh1bWJuYWlsIiwiY2FjaGVfbGlmZXRpbWUiOiI4NjQwMCIsInNsaWRlcl9pdGVtc19kZXNrdG9wIjoiNCIsInNsaWRlcl9pdGVtc19kZXNrdG9wX3NtYWxsIjoiMiIsInNsaWRlcl9pdGVtc190YWJsZXQiOiIyIiwic2xpZGVyX2l0ZW1zX21vYmlsZSI6IjIiLCJzbGlkZXJfbmF2aWdhdGlvbiI6IjEiLCJzbGlkZXJfdG91Y2hfZHJhZyI6IjEiLCJjYWNoZV90YWdzIjpbImNhdGFsb2dfcHJvZHVjdCIsImNtc19wYWdlIl0sImFqYXhibG9jayI6dHJ1ZX0=',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_981801273968077ac70d871b2b086512').html(data);
+	                    jQuery('#emajaxblock_981801273968077ac70d871b2b086512').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

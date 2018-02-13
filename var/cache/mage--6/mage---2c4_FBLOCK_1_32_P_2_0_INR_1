@@ -1,0 +1,320 @@
+<div class="layout07-content-homeblock03-food_drink em-wrapper-product-08 tab-color03">
+<div class="em-tabs-widget tabs-widget ">
+<div id="emajaxtabs_3" class="em-tabs emajaxtabs">
+<div class="block-title list-item">
+<p class="h2">Food &amp; Drink</p>
+</div>
+<div class="item_wrapper tabs custom-tab">
+<div class="item tab-link active"><a href="#tab_emajaxtabs_3_1" data-hover="Tab 1" data-tab="tab_emajaxtabs_3_1"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_brands1.png" /><span>Flour</span></a></div>
+<div class="item tab-link"><a href="#tab_emajaxtabs_3_2" data-hover="Tab 2" data-tab="tab_emajaxtabs_3_2"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_brands2.png" /><span>Cereals</span></a></div>
+<div class="item tab-link"><a href="#tab_emajaxtabs_3_3" data-hover="Tab 3" data-tab="tab_emajaxtabs_3_3"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_brands3.png" /><span>Vegetables</span></a></div>
+<div class="item tab-link"><a href="#tab_emajaxtabs_3_4" data-hover="Tab 4" data-tab="tab_emajaxtabs_3_4"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_brands4.png" /><span>Frozen Food</span></a></div>
+<div class="item tab-link"><a href="#tab_emajaxtabs_3_5" data-hover="Tab 5" data-tab="tab_emajaxtabs_3_5"><img class="img-responsive em-img-lazy" alt="" src="http://127.0.0.1/grocery/skin/frontend/em0139/em0139_layout07/images/loading.gif" data-original="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_brands5.png" /><span>Milk</span></a></div>
+</div>
+<div class="block-content">
+<div class="tab-content-container">
+<div id="tab_emajaxtabs_3_1" class="tab-content active">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner1.jpg" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner2.jpg" /></a></div>
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_a1475e8624723d386bc82e596badf776" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_a1475e8624723d386bc82e596badf776').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_a1475e8624723d386bc82e596badf776').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_a1475e8624723d386bc82e596badf776').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMDgiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDEiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_a1475e8624723d386bc82e596badf776').html(data);
+					jQuery('#emajaxblock_a1475e8624723d386bc82e596badf776').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMDgiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDEiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_a1475e8624723d386bc82e596badf776').html(data);
+	                    jQuery('#emajaxblock_a1475e8624723d386bc82e596badf776').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+<div id="tab_emajaxtabs_3_2" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner1.jpg" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner2.jpg" /></a></div>
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_bfe51378ed91cb3ce2b8e928dc539a7c" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_bfe51378ed91cb3ce2b8e928dc539a7c').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_bfe51378ed91cb3ce2b8e928dc539a7c').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_bfe51378ed91cb3ce2b8e928dc539a7c').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMTEiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDIiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_bfe51378ed91cb3ce2b8e928dc539a7c').html(data);
+					jQuery('#emajaxblock_bfe51378ed91cb3ce2b8e928dc539a7c').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMTEiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDIiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_bfe51378ed91cb3ce2b8e928dc539a7c').html(data);
+	                    jQuery('#emajaxblock_bfe51378ed91cb3ce2b8e928dc539a7c').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+<div id="tab_emajaxtabs_3_3" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner1.jpg" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner2.jpg" /></a></div>
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_1a1480609863a92b79c30c0700919c96" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_1a1480609863a92b79c30c0700919c96').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_1a1480609863a92b79c30c0700919c96').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_1a1480609863a92b79c30c0700919c96').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMDkiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDMiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_1a1480609863a92b79c30c0700919c96').html(data);
+					jQuery('#emajaxblock_1a1480609863a92b79c30c0700919c96').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMDkiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDMiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_1a1480609863a92b79c30c0700919c96').html(data);
+	                    jQuery('#emajaxblock_1a1480609863a92b79c30c0700919c96').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+<div id="tab_emajaxtabs_3_4" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner1.jpg" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner2.jpg" /></a></div>
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_9b509d288e0371ae3b9acbd228086988" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_9b509d288e0371ae3b9acbd228086988').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_9b509d288e0371ae3b9acbd228086988').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_9b509d288e0371ae3b9acbd228086988').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMDgiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDQiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_9b509d288e0371ae3b9acbd228086988').html(data);
+					jQuery('#emajaxblock_9b509d288e0371ae3b9acbd228086988').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMDgiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDQiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_9b509d288e0371ae3b9acbd228086988').html(data);
+	                    jQuery('#emajaxblock_9b509d288e0371ae3b9acbd228086988').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+<div id="tab_emajaxtabs_3_5" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner1.jpg" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner2.jpg" /></a></div>
+<div class="col-sm-6 em-clear-padding"><a href="#"><img class="img-responsive" alt="" src="http://127.0.0.1/grocery/media/wysiwyg/em0139/layout07/home/block3_banner3.jpg" /></a></div>
+</div>
+<div class="block-products"><div id="emajaxblock_025d85eae2bb2e6e92bfa8f78925b5b0" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_025d85eae2bb2e6e92bfa8f78925b5b0').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_025d85eae2bb2e6e92bfa8f78925b5b0').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_025d85eae2bb2e6e92bfa8f78925b5b0').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMTEiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDUiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_025d85eae2bb2e6e92bfa8f78925b5b0').html(data);
+					jQuery('#emajaxblock_025d85eae2bb2e6e92bfa8f78925b5b0').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMTEiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDUiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_025d85eae2bb2e6e92bfa8f78925b5b0').html(data);
+	                    jQuery('#emajaxblock_025d85eae2bb2e6e92bfa8f78925b5b0').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

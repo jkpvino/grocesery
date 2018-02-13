@@ -1,0 +1,53 @@
+<div id="emajaxblock_282cabc91b4a7593d1b35b7d029b5e5f" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#emajaxblock_282cabc91b4a7593d1b35b7d029b5e5f').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#emajaxblock_282cabc91b4a7593d1b35b7d029b5e5f').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#emajaxblock_282cabc91b4a7593d1b35b7d029b5e5f').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMDkiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDMiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+		        }).done(function(data) {
+		            jQuery('#emajaxblock_282cabc91b4a7593d1b35b7d029b5e5f').html(data);
+					jQuery('#emajaxblock_282cabc91b4a7593d1b35b7d029b5e5f').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: 'http://127.0.0.1/grocery/index.php/ajaxblock/?data=eyJ0eXBlIjoibWluaWZpbHRlcnByb2R1Y3RzXC9saXN0Y3VzdG9tIiwiY2F0ZWdvcnkiOiIxMDkiLCJ0eXBlX2ZpbHRlciI6IjUiLCJsaW1pdF9jb3VudCI6IjUiLCJvcmRlcl9ieSI6Im5hbWUgYXNjIiwiY3VzdG9tX2NsYXNzIjoidGFiIDMiLCJzaG93IjoidGh1bWIsbmFtZSxyZXZpZXcscHJpY2UsYWRkdG9jYXJ0LGFkZHRvIiwidGh1bWJuYWlsX3dpZHRoIjoiMjUwIiwidGh1bWJuYWlsX2hlaWdodCI6IjI1MCIsImN1c3RvbV90aGVtZSI6ImVtX21pbmlmaWx0ZXJwcm9kdWN0c1wvY3VzdG9tX21haW5faG9tZV9jb250ZW50X2Jsb2NrX2dyaWQucGh0bWwiLCJzbGlkZXJfZW5hYmxlIjoiMSIsInNsaWRlcl9pdGVtcyI6IjQiLCJpbWdfbGF6eWxvYWQiOiIxIiwiYWx0X2ltZyI6InRodW1ibmFpbCIsImNhY2hlX2xpZmV0aW1lIjoiODY0MDAiLCJzbGlkZXJfaXRlbXNfZGVza3RvcCI6IjQiLCJzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbCI6IjIiLCJzbGlkZXJfaXRlbXNfdGFibGV0IjoiMiIsInNsaWRlcl9pdGVtc19tb2JpbGUiOiIyIiwic2xpZGVyX25hdmlnYXRpb24iOiIxIiwic2xpZGVyX3RvdWNoX2RyYWciOiIxIiwiY2FjaGVfdGFncyI6WyJjYXRhbG9nX3Byb2R1Y3QiLCJjbXNfcGFnZSJdLCJhamF4YmxvY2siOnRydWV9',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#emajaxblock_282cabc91b4a7593d1b35b7d029b5e5f').html(data);
+	                    jQuery('#emajaxblock_282cabc91b4a7593d1b35b7d029b5e5f').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script>

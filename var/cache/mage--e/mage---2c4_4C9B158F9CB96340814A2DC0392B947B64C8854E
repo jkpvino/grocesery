@@ -1,0 +1,38 @@
+<div class="em_menu_default_471">
+    <div class="nav-container em_nav">
+    	<ul class="hnav">
+    		<li class=" menu-item-text menu-item-depth-0">
+            	<ul class="em-catalog-navigation horizontal">
+                	<li  class="level0 nav-1 first level-top em-menu-link parent"><a href="http://127.0.0.1/grocery/index.php/grocery.html"  class="level-top em-menu-link" ><span>Grocery</span></a><ul class="level0"><li  class="level1 nav-1-1 first"><a href="http://127.0.0.1/grocery/index.php/grocery/fruits-vegetables.html" ><span>Fruits &amp; Vegetables</span></a></li><li  class="level1 nav-1-2"><a href="http://127.0.0.1/grocery/index.php/grocery/foodgrains-oil-masala.html" ><span>Foodgrains, Oil &amp; Masala</span></a></li><li  class="level1 nav-1-3 last"><a href="http://127.0.0.1/grocery/index.php/grocery/bakery-cakes-dry.html" ><span>Bakery Cakes &amp; Dry</span></a></li></ul></li><li  class="level0 nav-2 last level-top em-menu-link"><a href="http://127.0.0.1/grocery/index.php/garments.html"  class="level-top em-menu-link" ><span>Garments</span></a></li>    			</ul>
+    		</li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+   function toogleMenuDefault_em_menu_default_471(){
+       var $=jQuery;
+       var wi = $(window).width();  
+       var wrapperMenu = $(".em_menu_default_471");
+       if(EM.SETTING.DISABLE_RESPONSIVE != 0){
+           if( (wi <= 767 || isPhone == true) ){
+               wrapperMenu.addClass('em-menu-mobile');
+           }else{
+               wrapperMenu.removeClass('em-menu-mobile');
+           }
+       }else{
+            wrapperMenu.removeClass('em-menu-mobile');
+       }
+   };
+   
+   jQuery(document).ready(function(){
+        toogleMenuDefault_em_menu_default_471();
+   });
+   
+   jQuery(window).bind('resize orientationchange', function() {
+       if(EM.SETTING.DISABLE_RESPONSIVE != 0){
+            toogleMenuDefault_em_menu_default_471();
+       }
+   });
+//]]>
+</script>
